@@ -20,7 +20,7 @@ describe('AppComponent', () => {
   it(`should have as title 'ng-azure-devops'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ng-azure-devopssss');
+    expect(app.title).toEqual('ng-azure-devops');
   });
 
   it('should render title', () => {
